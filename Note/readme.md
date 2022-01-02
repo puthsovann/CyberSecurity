@@ -3,3 +3,5 @@
 ```
 davtest -url http://localhost/davdir
 ```
+### CURL
+[curl with method]()
