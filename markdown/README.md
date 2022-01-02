@@ -1,3 +1,5 @@
+[Full Detail](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+
 ## Header
 ```
 # This is an <h1> tag
