@@ -72,4 +72,4 @@ Content in the first column | Content in the second column
 
 ## Emoji
 
-[CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+[Emoji List](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
