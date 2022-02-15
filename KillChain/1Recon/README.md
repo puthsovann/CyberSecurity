@@ -3,5 +3,5 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 ## DNS Enumeration [More](DNS)
 ***DNS enumeration*** is the process of locating all the DNS servers and their corresponding records for an organization. DNS enumeration will yield usernames, computer names, and IP addresses of potential target system
 
-### OSINT [More](OSINT)
+## OSINT [More](OSINT)
 ***Open-source intelligence*** is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.
