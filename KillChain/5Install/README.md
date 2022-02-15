@@ -1,0 +1,1 @@
+Immediately following the Exploitation phase, the malware or other attack vector will be installed on the victim’s system. This is a turning point in the attack lifecycle, as the threat actor has entered the system and can now assume control.
