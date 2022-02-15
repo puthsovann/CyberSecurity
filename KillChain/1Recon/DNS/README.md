@@ -1,4 +1,5 @@
-## DNS
+### DNS Enumeration
+***DNS enumeration*** is the process of locating all the DNS servers and their corresponding records for an organization. DNS enumeration will yield usernames, computer names, and IP addresses of potential target system
 ### Checking for RDNS.
 #### AMASS
 	amass enum -d http://domain.com
