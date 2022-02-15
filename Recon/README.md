@@ -1,4 +1,4 @@
 Recon is the 1st step to ....
 
-## DNS [L](DNS/DNS.md)
-### OSINT [L](OSINT/OSINT.md)
+## DNS [L](DNS/README.md)
+### OSINT [L](OSINT/README.md)
