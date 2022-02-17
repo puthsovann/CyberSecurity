@@ -25,3 +25,5 @@ There are online tools and services where malicious files can be uploaded and an
 [Any.Run](https://app.any.run/) - Analyze a network, file, module, and the registry activity. Interact with the OS directly from a browser. See the feedback from your actions immediately
 
 [Hybrid Analysis](https://www.hybrid-analysis.com/) - This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
+
+[Joe Sandbox](https://www.joesecurity.org/) - empowers analysts with a large spectrum of product features. Among them: Live Interaction, URL Analysis & AI based Phishing Detection, Yara and Sigma rules support, MITRE ATT&CK matrix, AI based malware detection, Mail Monitor, Threat Hunting & Intelligence, Automated User Behavior, Dynamic VBA/JS/JAR instrumentation, Execution Graphs, Localized Internet Anonymization and many more
