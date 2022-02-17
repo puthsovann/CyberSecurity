@@ -8,7 +8,7 @@
 (“Index Of” | “[To Parent Directory]”) AND “*financ*” inbody:xlsx site:somebank.com
 ```
 ### Some operators cheatsheet
-Operators | Description & Example
+Operators | Description & ```Example```
 ------------ | -------------
 inurl: | Value is contained somewhere in the url.  ```preventing ransomware ​inurl:fbi​```
 site: | Only search within this website’s given domain. ```windows xp end of life ​site:microsoft.com```
