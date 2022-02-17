@@ -1,6 +1,6 @@
 During the Reconnaissance phase, a malicious actor identifies a target and explores vulnerabilities and weaknesses that can be exploited within the network. As part of this process, the attacker may harvest login credentials or gather other information, such as email addresses, user IDs, physical locations, software applications and operating system details, all of which may be useful in phishing or spoofing attacks. Generally speaking, the more information the attacker is able to gather during the Reconnaissance phase, the more sophisticated and convincing the attack will be and, hence, the higher the likelihood of success.
 # Passive Reconnaissance
-Passive recon is when you gather information about a target without directly interacting with the target. This means that you don't send any type of request to the target and therefore the target has no way of knowing that you are gathering information on them.
+***Passive recon*** is when you gather information about a target without directly interacting with the target. This means that you don't send any type of request to the target and therefore the target has no way of knowing that you are gathering information on them.
 ## OSINT
 [More](OSINT) - ***Open-source intelligence*** is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.  
 * [Google Hacking DataBase](OSINT/GHDB.md)
