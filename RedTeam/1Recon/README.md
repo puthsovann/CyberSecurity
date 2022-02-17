@@ -2,7 +2,7 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 ## OSINT
 [More](OSINT) - ***Open-source intelligence*** is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.  
 * [Google Hacking DataBase](GHDB)
-* [TheHarvester](TheHarvester.md) is another tool like sublist3r which is developed using Python. 
+* [TheHarvester](OSINT/TheHarvester.md) is another tool like sublist3r which is developed using Python. 
 * Shodan
 * Maltego
 * Metagoofil
