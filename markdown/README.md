@@ -1,10 +1,9 @@
-[Full Detail](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
+[Github Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
 ## Header
 ```
 # This is an <h1> tag
 ## This is an <h2> tag
-###### This is an <h6> tag 
+###### This is an <h6> tag
 ```
 ## Emphasis
 ```
@@ -70,6 +69,7 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
 
-## Emoji
+## Resources
 
 [Emoji List](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+[Other](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

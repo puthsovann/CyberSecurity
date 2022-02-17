@@ -5,4 +5,4 @@
 [More](BlueTeam) - If the red team is playing offense, then the blue team is on defense. Typically, this group consists of incident response consultants who provide guidance to the IT security team on where to make improvements to stop sophisticated types of cyberattacks and threats. The IT security team is then responsible for maintaining the internal network against various types of risk.
 
 # Github Markdown Language
-[More](markdown)
+[Github Markdown](markdown) - GitHub combines a syntax for formatting text called GitHub Flavored Markdown with a few unique writing features. Markdown is an easy-to-read, easy-to-write syntax for formatting plain text.
