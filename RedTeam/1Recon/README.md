@@ -19,3 +19,5 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 * [NVD](https://nvd.nist.gov/vuln/search) - National Vulnerability Database (NVD) is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP).
 * [CVE Mitre](https://cve.mitre.org/) - is a list of publicly disclosed cybersecurity vulnerabilities that is free to search, use, and incorporate into products and services
 * *searchsploit* which allows you to search ExploitDB from your own machine. This is offline, and works using a downloaded version of the database, meaning that you already have all of the exploits already on your Kali Linux!
+
+[Back](#passive-reconnaissance)
