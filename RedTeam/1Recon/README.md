@@ -10,7 +10,7 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 * Check Usernames
 * TinEye
 * Creepy
-* [DNS Enumeration](DNS)
+* [DNS Enumeration](OSINT/DNS.md)
 
 ## Vulnerability Database or CVE
 * [ExploitDB](https://www.exploit-db.com/) - Exploit Database (ExploitDB) is an archive of exploits for the purpose of public security, and it explains what can be found on the database.
