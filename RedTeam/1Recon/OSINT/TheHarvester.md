@@ -1,5 +1,5 @@
 # The Harvester
-This tool can be used by penetration testers for gathering information of emails, sub-domains, hosts, employee names, open ports, and banners from different public sources like search engines, PGP key servers, and SHODAN computer database. This tool can be used in passive reconnaissance and by anyone who needs to know what an attacker can see about the organization.
+This tool can be used by penetration testers for gathering information of emails, sub-domains, hosts, employee names, open ports, and banners from different public sources like search engines, PGP key servers, and SHODAN computer database. This tool can be used in passive reconnaissance and by anyone who needs to know what an attacker can see about the organization. [More](https://www.geeksforgeeks.org/python-theharvester-how-to-use-it/)
 
 ## How to install theHarvester
 ```
