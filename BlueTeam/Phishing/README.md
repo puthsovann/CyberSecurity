@@ -1,5 +1,5 @@
 
-#Phishing Email
+# Phishing Email
 
 Below are typical characteristics phishing emails have in common:
 * The sender email name/address will masquerade as a trusted entity (email spoofing)
@@ -16,15 +16,15 @@ Below are typical characteristics phishing emails have in common:
 [Cheap SSL](https://cheapsslsecurity.com/blog/10-phishing-email-examples-you-need-to-see/)
 [Phish Quiz](https://phishingquiz.withgoogle.com)
 
-#Resources/Tools
-##Email Header
+# Resources/Tools
+## Email Header
 Messageheader analyzes SMTP message headers, which help identify the root cause of delivery delays. You can detect misconfigured servers and mail-routing problems.
 
 [GoogleApps](https://toolbox.googleapps.com/apps/messageheader/analyzeheader)
 [Azure](https://mha.azurewebsites.net/)
 [MailHeader Org](https://mailheader.org/)
 
-##IP/Url Info
+## IP/Url Info
 [IPInfo]( https://ipinfo.io/)
 "With IPinfo, you can pinpoint your users’ locations, customize their experiences, prevent fraud, ensure compliance, and so much more".
 
@@ -35,7 +35,7 @@ urlscan.io is a free service to scan and analyse websites. When a URL is submitt
 [URL Extractor](https://www.convertcsv.com/url-extractor.htm)
 The tool use for extract all url in provided header or files.
 
-##File Reputation
+## File Reputation
 [VirusTotal](https://www.virustotal.com/gui/)
 
 [Talos File Reputation](https://talosintelligence.com/talos_file_reputation)
