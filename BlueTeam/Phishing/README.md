@@ -22,3 +22,8 @@ The tool use for extract all url in provided header or files.
 
 [Talos File Reputation](https://talosintelligence.com/talos_file_reputation)  
 The Cisco Talos Intelligence Group maintains a reputation disposition on billions of files. This reputation system is fed into the AMP, FirePower, ClamAV, and Open-Source Snort product lines. The tool below allows you to do casual lookups against the Talos File Reputation system. This system limits you to one lookup at a time, and is limited to only hash matching. This lookup does not reflect the full capabilities of the Advanced Malware Protection (AMP) system.
+
+## Sandboxing
+There are online tools and services where malicious files can be uploaded and analyzed to better understand what the malware was programmed to do. These services are known as malware sandboxes. For instance, we can upload an attachment we obtained from a potentially malicious email and see what URLs it attempts to communicate with, what additional payloads are downloaded to the endpoint, persistence mechanisms, Indicators of Compromise (IOCs), etc.  
+[Any.Run](https://app.any.run/)Analyze a network, file, module, and the registry activity. Interact with the OS directly from a browser. See the feedback from your actions immediately  
+[Hybrid Analysis](https://www.hybrid-analysis.com/)This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
