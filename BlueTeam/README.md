@@ -4,7 +4,7 @@
 [More](Phishing) - *Spam and Phishing* are common social engineering attacks. In social engineering, phishing attack vectors can be a phone call, a text message, or an email. As you should have already guessed, our focus is on email as the attack vector.
 *An organization* can follow all the recommended guidelines when it comes to building a layered defense strategy. Still, all it takes is an inexperienced and unsuspecting user within your corporate environment to click on a link or download and run a malicious attachment which may provide an attacker a foothold into the network.
 
-Below are typical characteristics phishing emails have in common:
+Below are typical characteristics phishing emails have in common:  
 * The sender email name/address will masquerade as a trusted entity (email spoofing)
 * The email subject line and/or body (text) is written with a sense of urgency or uses certain keywords such as Invoice, Suspended, etc.
 * The email body (HTML) is designed to match a trusting entity (such as Amazon)
