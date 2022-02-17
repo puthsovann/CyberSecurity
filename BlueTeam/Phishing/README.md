@@ -23,5 +23,6 @@ Messageheader analyzes SMTP message headers, which help identify the root cause 
 ## Sandboxing
 There are online tools and services where malicious files can be uploaded and analyzed to better understand what the malware was programmed to do. These services are known as malware sandboxes. For instance, we can upload an attachment we obtained from a potentially malicious email and see what URLs it attempts to communicate with, what additional payloads are downloaded to the endpoint, persistence mechanisms, Indicators of Compromise (IOCs), etc.
 
-[Any.Run](https://app.any.run/) - Analyze a network, file, module, and the registry activity. Interact with the OS directly from a browser. See the feedback from your actions immediately  
+[Any.Run](https://app.any.run/) - Analyze a network, file, module, and the registry activity. Interact with the OS directly from a browser. See the feedback from your actions immediately
+
 [Hybrid Analysis](https://www.hybrid-analysis.com/) - This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
