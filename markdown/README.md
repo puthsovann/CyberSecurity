@@ -72,4 +72,4 @@ Content in the first column | Content in the second column
 ## Resources
 
 [Emoji List](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)  
-[Other](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
