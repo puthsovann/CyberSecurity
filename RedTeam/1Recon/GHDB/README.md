@@ -1,7 +1,9 @@
-***The Google Hacking Database (GHDB)*** The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers. [Exploit Db](https://www.exploit-db.com/google-hacking-database)  
+***The Google Hacking Database (GHDB)*** The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers. [Exploit DB](https://www.exploit-db.com/google-hacking-database)
+
 ```
 (“Index Of” | “[To Parent Directory]”) AND “*financ*” inbody:xlsx site:somebank.com
 ```
+### Some operators cheatsheet
 Operators | Description & Example
 ------------ | -------------
 inurl: | Value is contained somewhere in the url.  ```preventing ransomware ​inurl:fbi​```
