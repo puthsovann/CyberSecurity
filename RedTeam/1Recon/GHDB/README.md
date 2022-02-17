@@ -1,4 +1,5 @@
-***The Google Hacking Database (GHDB)*** The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers.  
+# Google Hacking Database (GHDB)
+*The GHDB* is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers.  
 
 [Exploit-DB GHDB](https://www.exploit-db.com/google-hacking-database)  
 [Cheatsheet](https://sansorg.egnyte.com/dl/f4TCYNMgN6)
