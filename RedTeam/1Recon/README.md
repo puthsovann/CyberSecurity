@@ -2,7 +2,7 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 ## OSINT
 [More](OSINT) - ***Open-source intelligence*** is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.  
 * [Google Hacking DataBase](GHDB)
-* [TheHarvester](OSINT/TheHarvester.md) is another tool like sublist3r which is developed using Python. 
+* [TheHarvester](OSINT/TheHarvester.md) is another tool like sublist3r which is developed using Python.
 * Shodan
 * Maltego
 * Metagoofil
@@ -11,3 +11,9 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 * TinEye
 * Creepy
 * [DNS Enumeration](DNS)
+
+## Vulnerability Database or CVE
+* [ExploitDB](https://www.exploit-db.com/)
+* [NVD](https://nvd.nist.gov/vuln/search)
+* [CVE Mitre](https://cve.mitre.org/)
+* *searchsploit* which allows you to search ExploitDB from your own machine. This is offline, and works using a downloaded version of the database, meaning that you already have all of the exploits already on your Kali Linux!
