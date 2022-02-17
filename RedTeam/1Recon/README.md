@@ -2,7 +2,7 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 # Passive Reconnaissance
 ***Passive recon*** is when you gather information about a target without directly interacting with the target. This means that you don't send any type of request to the target and therefore the target has no way of knowing that you are gathering information on them.
 ## OSINT
-[More](OSINT) - ***Open-source intelligence*** is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.  
+[More](OSINT) - *Open-source intelligence* is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.  
 * [Google Hacking DataBase](OSINT/GHDB.md)
 * [TheHarvester](OSINT/TheHarvester.md) is another tool like sublist3r which is developed using Python.
 * Shodan
