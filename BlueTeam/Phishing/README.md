@@ -11,12 +11,11 @@ Below are typical characteristics phishing emails have in common:
 * A malicious attachment posing as a legitimate document
 
 *Additional Resources 2 Read*
-```
+
 [Knowbe4](https://www.knowbe4.com/phishing)
 [IT Governance](https://www.itgovernance.co.uk/blog/5-ways-to-detect-a-phishing-email)
 [Cheap SSL](https://cheapsslsecurity.com/blog/10-phishing-email-examples-you-need-to-see/)
 [Phish Quiz](https://phishingquiz.withgoogle.com)
-```
 
 # Resources/Tools
 ## Email Header
