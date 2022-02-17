@@ -16,6 +16,6 @@ link: | Find other pages indexed by Google that reference this link. ```link:htt
 +word | Show results with this word exactly. Do not include similar words. ```Malware +Hunter```
 ­word/query | Do not include this word in search results or queries. ```​Advanced Malware Hunting ­beginner ­introduction ­site:microsoft.com```
 “word * word” | Wildcard. Search for anything between these two words, but include both. ```“Next * Firewalls with *”```
-OR (or | ) | Return results for either item. The pipe character can be used in place. ``` ​“locky OR ransomware” "locky | ransomware"```
-AND (or &) | Return results with both items. Ampersand character can be used in place. ``` ​“cissp AND certification”​  “cissp & certification”```
+OR (or | ) | Return results for either item. The pipe character can be used in place. ```“locky OR ransomware” "locky | ransomware"```
+AND (or &) | Return results with both items. Ampersand character can be used in place. ```​“cissp AND certification”​  “cissp & certification”```
 [#]...[#] or numrange: | Within a range numbers ```plasma television $1000...1500```
