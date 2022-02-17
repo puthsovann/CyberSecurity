@@ -3,21 +3,14 @@ This tool can be used by penetration testers for gathering information of emails
 
 ## How to install theHarvester
 ```
-root@kali:~# theharvester
-*******************************************************************
-*                                                                 *
-* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
-* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
-* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
-*  \__|_| |_|\___| \/ /_/ \__, _|_|    \_/ \___||___/\__\___|_|    *
-*                                                                 *
-* TheHarvester Ver. 3.0.0                                         *
-* Coded by Christian Martorella                                   *
-* Edge-Security Research                                          *
-* cmartorella@edge-security.com                                   *
-*******************************************************************
-
-
+sudo apt-get theharvester
+```
+```
+git clone https://github.com/laramies/theHarvester.git
+cd theHarvester
+sudo python ./theHarvester.py
+```
+```
 Usage: theharvester options
 
        -d: Domain to search or company name
@@ -42,14 +35,6 @@ Examples:
         theharvester -d microsoft.com -b pgp
         theharvester -d microsoft -l 200 -b linkedin
         theharvester -d apple.com -b googleCSE -l 500 -s 300
-```
-```
-sudo apt-get theharvester
-```
-```
-git clone https://github.com/laramies/theHarvester.git
-cd theHarvester
-sudo python ./theHarvester.py
 ```
 ## Example
 ```
