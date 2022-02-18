@@ -42,3 +42,5 @@ nikto -id bob:bubbles -host http://10.10.195.128:1234/manager/html
   gobusterdir -u http://10.10.195.128-w/usr/share/wordlists/dirbuster/dirbuster-Git
 ```
 [DirSearch](https://github.com/maurosoria/dirsearch) - is a simple command line tool designed to brute force directories and files in websites.
+
+[Top](#passive-reconnaissance)
