@@ -27,7 +27,7 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 
 ## Web Directory Enumeration
 [GoBuster](https://github.com/OJ/gobuster) - is a multi-threaded java application that is used to perform brute force over directories and file names on web and application servers. DirBuster attempts to find hidden directories and pages within a web application, providing users with an additional attack vector.  
-
+```
   gobusterdir -u http://10.10.195.128-w/usr/share/wordlists/dirbuster/dirbuster-Git
-
+```
 [DirSearch](https://github.com/maurosoria/dirsearch) - is a simple command line tool designed to brute force directories and files in websites.
