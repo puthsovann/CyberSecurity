@@ -25,6 +25,9 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 # Active Reconnaissance
 ***Active reconnaissance*** is a way of finding out information that does leave a footprint. (Think of a footprint like a digital signature, your thumb has a footprint, and so does your online activity although in a more abstract way) It involves an attempt to figure out things like the OS (Operating System) being used, any open ports, (a port being a pathway into a network basically. This is important because if you can find an open port, you can most likely find a way to get into the network) email addresses of the employees, etc.
 
+## Web Directory Enumeration
 [GoBuster](https://github.com/OJ/gobuster) - is a multi-threaded java application that is used to perform brute force over directories and file names on web and application servers. DirBuster attempts to find hidden directories and pages within a web application, providing users with an additional attack vector.  
+
   gobusterdir -u http://10.10.195.128-w/usr/share/wordlists/dirbuster/dirbuster-Git
+
 [DirSearch](https://github.com/maurosoria/dirsearch) - is a simple command line tool designed to brute force directories and files in websites.
