@@ -27,11 +27,13 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 
 ## Scanning
 [Nmap](https://nmap.org/) is a free and open-source network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection. [CheatSheet](https://www.stationx.net/nmap-cheat-sheet/)
-``` nmap -vv -sV -p- --script vuln 10.0.0.184
+```
+nmap -vv -sV -p- --script vuln 10.0.0.184
 ```
 
 [Nikto](https://tools.kali.org/information-gathering/nikto) is a free software command-line vulnerability scanner that scans webservers for dangerous files/CGIs, outdated server software and other problems. It performs generic and server type specific checks. It also captures and prints any cookies received.
-```nikto -id bob:bubbles -host http://10.10.195.128:1234/manager/html
+```
+nikto -id bob:bubbles -host http://10.10.195.128:1234/manager/html
 ```
 
 ## Web Directory Enumeration
