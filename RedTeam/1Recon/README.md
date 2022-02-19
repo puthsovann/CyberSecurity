@@ -36,7 +36,7 @@ nmap -vv -sV -p- --script vuln 10.0.0.184
 nikto -H -nossl <ip.address>
 nikto -id bob:bubbles -host http://10.10.195.128:1234/manager/html
 ```
-### Nikto can be used with plugin
+***Nikto can be used with plugin***
 ```
 nikto -list-plugins
 nikto -Plugins+ apacheusers -H 10.10.10.10
