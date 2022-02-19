@@ -8,7 +8,8 @@ sqlmap -u http://domain.name --form
 sqlmap --dbms=SQLite -r Burp --tamper=cspace2comment --level=3 -- dump-all
 ```
 ```
--r uses the intercepted request you saved earlier What flag sets which database is in the target host's backend?(Example: If the flag is set to mysql then sqlmap will only test mysql injections).
+-r uses the intercepted request you saved earlier What flag sets which database is in the target host's backend?
+Example: If the flag is set to mysql then sqlmap will only test mysql injections).
 --dbms tells SQLMap what type of database management system it is How do you dump the table entries of the database?
 --dump attempts to outputs the entire database
 How do you select(lol) which parameter to use?(Example: in the url http://ex.com?test=1 the parameter would be test.)
