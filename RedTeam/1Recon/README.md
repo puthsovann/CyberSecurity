@@ -31,6 +31,7 @@ During the Reconnaissance phase, a malicious actor identifies a target and explo
 ```
 nmap -vv -sV -p- --script vuln 10.0.0.184
 ```
+## Web Directory Enumeration
 #### Nikto
 [Nikto](https://tools.kali.org/information-gathering/nikto) is a free software command-line vulnerability scanner that scans webservers for dangerous files/CGIs, outdated server software and other problems. It performs generic and server type specific checks. It also captures and prints any cookies received.
 ```
@@ -42,12 +43,10 @@ nikto -id bob:bubbles -host http://10.10.195.128:1234/manager/html
 nikto -list-plugins
 nikto -Plugins+ apacheusers -H 10.10.10.10
 ```
-
-## Web Directory Enumeration
 #### GoBuster
 [GoBuster](https://github.com/OJ/gobuster) - is a multi-threaded java application that is used to perform brute force over directories and file names on web and application servers. DirBuster attempts to find hidden directories and pages within a web application, providing users with an additional attack vector.  
 ```
-  gobusterdir -u http://10.10.195.128-w/usr/share/wordlists/dirbuster/dirbuster-Git
+gobusterdir -u http://10.10.195.128 -w /usr/share/wordlists/dirbuster/dirbuster-Git
 ```
 #### DirSearch
 [DirSearch](https://github.com/maurosoria/dirsearch) - is a simple command line tool designed to brute force directories and files in websites.
