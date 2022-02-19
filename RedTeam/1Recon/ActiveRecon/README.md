@@ -45,13 +45,10 @@ wfuzz -c -z file,/usr/share/wordlists/dirb/big.txt localhost:80/FUZZ/ note.txt
 ### Ffuf
 *Ffuf* is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing.
 ```
-  ffuf -w /usr/share/wordlists/SecLists/Discovery/ DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http:// MACHINE_IP
-
-  ffuf -w /usr/share/wordlists/SecLists/Discovery/ DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http:// MACHINE_IP -fs {size}
-
-  ffuf -w /usr/share/wordlists/SecLists/ Usernames/Names/names.txt -X POST -d "username=FUZZ&email=x&password=x&cpassword=x" -H "Content- Type: application/x-www-form-urlencoded" -u http://MACHINE_IP/ customers/signup -mr "username already exists"
-
-  ffuf -w valid_usernames.txt:W1,/usr/share/ wordlists/SecLists/Passwords/Common-Credentials/10-million- password-list-top-100.txt:W2 -X POST -d "username=W1&password=W2" -H "Content-Type: application/x-www- form-urlencoded" -u http://MACHINE_IP/customers/login -fc 200
+ffuf -w /usr/share/wordlists/SecLists/Discovery/ DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http:// MACHINE_IP  
+ffuf -w /usr/share/wordlists/SecLists/Discovery/ DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http:// MACHINE_IP -fs {size}  
+ffuf -w /usr/share/wordlists/SecLists/ Usernames/Names/names.txt -X POST -d "username=FUZZ&email=x&password=x&cpassword=x" -H "Content- Type: application/x-www-form-urlencoded" -u http://MACHINE_IP/ customers/signup -mr "username already exists"  
+ffuf -w valid_usernames.txt:W1,/usr/share/ wordlists/SecLists/Passwords/Common-Credentials/10-million- password-list-top-100.txt:W2 -X POST -d "username=W1&password=W2" -H "Content-Type: application/x-www- form-urlencoded" -u http://MACHINE_IP/customers/login -fc 200
 
   W1 & W2 variables for passing data  
   -fs to filter to exclude output with {Size} -H to edit header  
