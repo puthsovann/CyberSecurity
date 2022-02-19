@@ -24,9 +24,12 @@ nikto -Plugins+ apacheusers -H 10.10.10.10
 ```
 gobusterdir -u http://10.10.195.128 -w /usr/share/wordlists/dirbuster/dirbuster-Git
 ```
+
 #### DirSearch
 [DirSearch](https://github.com/maurosoria/dirsearch) - is a simple command line tool designed to brute force directories and files in websites.
+
 ## Fuzzing
+
 ### wfuzz
 *Wfuzz* is a tool designed for bruteforcing Web Applications, it can be used for finding resources not linked directories, servlets, scripts, etc, bruteforce GET and POST parameters for checking different kind of injections (SQL, XSS, LDAP,etc), bruteforce Forms parameters (User/Password), Fuzzing, etc.
 ```
