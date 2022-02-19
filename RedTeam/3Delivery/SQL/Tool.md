@@ -22,11 +22,11 @@ Ex: If the flag is set to mysql then sqlmap will only test mysql injections.
 # How do you select the level of depth sqlmap should use(higher = more accurate and more tests in general).  
   --level
 
-#How do you ask sqlmap to try to get an interactive os-shell?  
+# How do you ask sqlmap to try to get an interactive os-shell?  
   --os-shell
 
-#What flag dumps all data from every table
+# What flag dumps all data from every table
   --dump-all
 
-#location of dump csv /home/user/.local/share/sqlmap/output/10.10.10.10/‐ dump/
+# location of dump csv /home/user/.local/share/sqlmap/output/10.10.10.10/‐ dump/
 ```
