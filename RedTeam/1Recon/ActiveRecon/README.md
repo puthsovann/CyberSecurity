@@ -7,7 +7,7 @@
 ```
 nmap -vv -sV -p- --script vuln 10.0.0.184
 ```
-## Web Directory Enumeration
+## Web Enumeration
 #### Nikto
 [Nikto](https://tools.kali.org/information-gathering/nikto) is a free software command-line vulnerability scanner that scans webservers for dangerous files/CGIs, outdated server software and other problems. It performs generic and server type specific checks. It also captures and prints any cookies received.
 ```
@@ -26,3 +26,14 @@ gobusterdir -u http://10.10.195.128 -w /usr/share/wordlists/dirbuster/dirbuster-
 ```
 #### DirSearch
 [DirSearch](https://github.com/maurosoria/dirsearch) - is a simple command line tool designed to brute force directories and files in websites.
+## Fuzzing
+### wfuzz
+*Wfuzz* is a tool designed for bruteforcing Web Applications, it can be used for finding resources not linked directories, servlets, scripts, etc, bruteforce GET and POST parameters for checking different kind of injections (SQL, XSS, LDAP,etc), bruteforce Forms parameters (User/Password), Fuzzing, etc.
+```
+wfuzz -c -z file,mywordlist.txt -d “username=FUZZ&password=FUZZ” -u http://shibes.thm/login.php
+wfuzz -c -z file,/usr/share/wordlists/dirb/big.txt localhost:80/FUZZ/ note.txt
+  -c Show the output in color
+  -d Specifies paramater want to fuzz
+  -z Specifies what will replace FUZZZ in the request --hc Don't show certian http response code.
+  --hl Don'tshowforcertainamountoflineresponse --hh Don't show for certain amount of characters
+```
