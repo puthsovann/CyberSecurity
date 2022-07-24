@@ -8,4 +8,4 @@
 [Github Markdown](markdown) - GitHub combines a syntax for formatting text called GitHub Flavored Markdown with a few unique writing features. Markdown is an easy-to-read, easy-to-write syntax for formatting plain text.
 
 # Some Script
-[Script](Scripts) - Some code/scripts for exploit, automation and others.
+[Scripts](Scripts) - Some code/scripts for exploit, automation and others.
