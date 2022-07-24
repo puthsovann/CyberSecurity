@@ -2,7 +2,7 @@
 File ***Auto_install*** is script for auto installation of most used tools of linux (Ubunu/Kali)
 
 # Python Scripts
-## Requests path and append values
+### Requests path and append values
 ```
 import requests path = ''
 host = 'http://10.10.169.100:3000/'
@@ -16,4 +16,11 @@ while(path is not 'end'):
   print (path + " ")
   print (value)
 print (value)
+```
+### Simple Requests
+```
+import requets
+host = 'http://10.10.10.10/'
+respond = requests.get(host)
+print(respond.text)
 ```
