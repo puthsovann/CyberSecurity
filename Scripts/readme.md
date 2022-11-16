@@ -31,11 +31,13 @@ for i in {START..END}
 do
    commands
 done
+
 ## step value ##
 for i in {START..END..STEP}
 do
    commands
 done
+
 ## example: ping cbz01, cbz02, cbz03, and cbz04 using a loop ##
 for i in 0{1..4}
 do
@@ -47,11 +49,13 @@ do
     else
         echo "server $h dead or can not ping."
     fi
+
 ## The for Loop argument list also workes command substitution as follows:
 for var in $(command)
 do
   print "$var"
 done
+
 ## example ##
 for f in $(ls /nas/*.pdf)
 do
