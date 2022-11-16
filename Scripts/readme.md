@@ -62,3 +62,8 @@ do
   print "File $f"
 done
 ```
+
+### One Line Base Script
+```
+i=2; while [ $i -le 10 ]; do [ $i -ne 3 -a $i -ne 5 ] && echo "$i not equal to 3 or 5" || echo $i; i=$((i+1)); done
+```
