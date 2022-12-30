@@ -25,4 +25,4 @@ It is an adaptation of the military’s kill chain, which is a step-by-step appr
 [More](7ActionOnObj) - The attacker performs the steps to achieve his actual goals inside the victim’s network. This is the elaborate active attack process that takes months, and thousands of small steps, in order to achieve.
 
 ## RedToolKit
-![RedToolKit](resouce/RedToolKit.png)
+![RedToolKit](resouce/RedToolKit.jpg)
