@@ -1,9 +1,9 @@
 ***Forensic*** -- Information security is a very crucial aspect of business management that has always remained at risk of attack. Once a system is compromised, it loses its confidentiality, integrity, and, at times, availability which damages normal business processes. Tragic as it may sound, all is not lost; sophisticated attacks take time to mature, giving a keen administrator a chance to detect an attack in its early stages and counter it soon enough. There are certain things you can look into when you suspect one of your machines is compromised. We have listed 14 things to check when a system gets compromised. Let’s list them one after the other.
 There are two basic concepts used to examine a system that has been compromised:
 
-***14 tips possible ways to counter attacks****
+***14 tips possible ways to counter attacks, You need to check for****
 
-## #1. Check for unusual accounts created
+## #1. Unusual accounts created
 Administrator accounts in the AD groups are the first thing to check when a system gets compromised. Because administrator accounts are used to perform activities that require special permissions, such as installing and configuring software or managing access controls and firewalls, there being presence of unknown accounts in the administrator’s group would imply an unknown user with complete control of a computer system. This is harmful to information security and should be controlled by performing regular audits to verify user authenticity. run a malicious attachment which may provide an attacker a foothold into the network.
 
 *To remove administrator rights from an unknown account if encountered on a Windows 10 Pro or Enterprise computer.*
@@ -11,3 +11,19 @@ Administrator accounts in the AD groups are the first thing to check when a syst
 2. Tap on ‘Groups‘ on the displayed pane and select the administrator’s groups
 3. Right-click the admin group and select their properties
 4. Select the individual user you wish to eliminate and tap on the ‘Remove’ button
+
+## #2. Unusual Big Files on storage > 5GB
+Another common sign of a compromised system is the presence of unusually large files(5GB) or more. Said files show up in your storage, totally unaware of all other users in your system. Whenever you notice such an extensive and curious database read in your system storage, it means that hackers have already infiltrated your system and are now gathering up your data to steal it. Check for large files is another thing to check when a system gets compromised.A remedy hereby would be to immediately delete the folders and install an anti-virus for constant checks.
+
+## #3. Any unusual files added recently in system folders
+To launch malware into your system, attackers usually plant a file in your system and induce you to open it. Documents containing such malicious code are heavy and subtly hidden as Microsoft documents to appear legitimate.
+Search for any unknown or suspicious file types. An efficient way to handle this would be to run a virus scan and ensure all malware is removed.
+
+## #4. File using the "Hidden" Attribute Property
+Any file with a Hidden attribute turned on during property settings is a hidden file. These files are not displayed when their location folder is opened with Windows Explorer or searched on the local machine.
+Windows traditionally used the hidden attribute to set apart various crucial program files and keep them safe for modification. This attribute has traversed modern cyberspace and is now being used by hackers to evade detection. So checking for hidden files is an obvious thing to check when a system gets compromised.
+
+
+
+
+
