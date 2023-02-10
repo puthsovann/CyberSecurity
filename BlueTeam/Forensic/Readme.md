@@ -1,4 +1,5 @@
 ***Forensic*** -- Information security is a very crucial aspect of business management that has always remained at risk of attack. Once a system is compromised, it loses its confidentiality, integrity, and, at times, availability which damages normal business processes. Tragic as it may sound, all is not lost; sophisticated attacks take time to mature, giving a keen administrator a chance to detect an attack in its early stages and counter it soon enough. There are certain things you can look into when you suspect one of your machines is compromised. We have listed 14 things to check when a system gets compromised. Let’s list them one after the other.
+
 There are two basic concepts used to examine a system that has been compromised:
 
 ***14 tips possible ways to counter attacks, You need to check for****
@@ -29,6 +30,13 @@ Yet another way of discovering a swystem under compromise is discovery strange p
 2. Select the ***startup tab*** on the window that pops up.
 
 A list of programs should be indicated, and in case you find one looking suspicious or lacking a publisher unlisted, right-click it. You will be prompted with the options to open the file location, study its properties or disable it.Advisably disable the program, but if that option is greyed out, you can alternatively right-click on one of the tabs displayed and enable the command line.Now you can see the full path to the programs running and take appropriate action. However, having a reliable anti-virus installed is more full-proof, meaning protection will require fewer manual interventions.
+
+## 06. All Running Process for unusual/unknown entries, especially with users "System" and "Administrator"
+Whatever may be the program is, legit or malicious. Everything just runs as a process. But, the fact is, It is very easy to lose track of processes running on your windows server system. At any particular time, hundreds of processes, schedules, handles, and privileges operate simultaneously, and a spooky program could be launched and go unnoticed for a while. Process monitoring plays a crucial role in the malware detection process. You shouldn’t leave this thing to check when a system gets compromised.
+
+To get a full display of all running processes, open the ***taskbar***, and it automatically lands on the ***processes tab***. Alternatively, typing ***‘tasklist‘*** on the command line should display them and right-click to end task.
+
+The ‘tasklist’ command is helpful but does not give you a text file of the running processes. Instead, type the command ***‘tasklist > c:\process_list.txt’ to get a saved copy.***
 
 [More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
 
