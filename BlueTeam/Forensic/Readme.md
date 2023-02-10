@@ -23,6 +23,11 @@ Search for any unknown or suspicious file types. An efficient way to handle this
 Any file with a Hidden attribute turned on during property settings is a hidden file. These files are not displayed when their location folder is opened with Windows Explorer or searched on the local machine.
 Windows traditionally used the hidden attribute to set apart various crucial program files and keep them safe for modification. This attribute has traversed modern cyberspace and is now being used by hackers to evade detection. So checking for hidden files is an obvious thing to check when a system gets compromised.
 
+## 05. Unusual Programs Launched at Boot time in Window Registry
+Yet another way of discovering a swystem under compromise is discovery strange programe running during machine boot time. So, never forget this thing to check when a system gets compromise. To check what programs are getting launched at boot time: 
+1. Open the ***task manager***
+2. Select the ***startup tab*** on the window that pops up.
+A list of programs should be indicated, and in case you find one looking suspicious or lacking a publisher unlisted, right-click it. You will be prompted with the options to open the file location, study its properties or disable it.Advisably disable the program, but if that option is greyed out, you can alternatively right-click on one of the tabs displayed and enable the command line.Now you can see the full path to the programs running and take appropriate action. However, having a reliable anti-virus installed is more full-proof, meaning protection will require fewer manual interventions.
 
 [More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
 
