@@ -24,6 +24,6 @@ Any file with a Hidden attribute turned on during property settings is a hidden 
 Windows traditionally used the hidden attribute to set apart various crucial program files and keep them safe for modification. This attribute has traversed modern cyberspace and is now being used by hackers to evade detection. So checking for hidden files is an obvious thing to check when a system gets compromised.
 
 
-[https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/](More)
+[More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
 
 
