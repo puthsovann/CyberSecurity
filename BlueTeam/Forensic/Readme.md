@@ -27,6 +27,7 @@ Windows traditionally used the hidden attribute to set apart various crucial pro
 Yet another way of discovering a swystem under compromise is discovery strange programe running during machine boot time. So, never forget this thing to check when a system gets compromise. To check what programs are getting launched at boot time: 
 1. Open the ***task manager***
 2. Select the ***startup tab*** on the window that pops up.
+
 A list of programs should be indicated, and in case you find one looking suspicious or lacking a publisher unlisted, right-click it. You will be prompted with the options to open the file location, study its properties or disable it.Advisably disable the program, but if that option is greyed out, you can alternatively right-click on one of the tabs displayed and enable the command line.Now you can see the full path to the programs running and take appropriate action. However, having a reliable anti-virus installed is more full-proof, meaning protection will require fewer manual interventions.
 
 [More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
