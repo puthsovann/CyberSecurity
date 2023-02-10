@@ -3,7 +3,7 @@ There are two basic concepts used to examine a system that has been compromised:
 
 ***14 tips possible ways to counter attacks****
 
-## Check for unusual accounts created
+## #1. Check for unusual accounts created
 Administrator accounts in the AD groups are the first thing to check when a system gets compromised. Because administrator accounts are used to perform activities that require special permissions, such as installing and configuring software or managing access controls and firewalls, there being presence of unknown accounts in the administrator’s group would imply an unknown user with complete control of a computer system. This is harmful to information security and should be controlled by performing regular audits to verify user authenticity. run a malicious attachment which may provide an attacker a foothold into the network.
 
 *To remove administrator rights from an unknown account if encountered on a Windows 10 Pro or Enterprise computer.*
