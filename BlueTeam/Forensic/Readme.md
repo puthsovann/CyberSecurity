@@ -38,6 +38,17 @@ To get a full display of all running processes, open the ***taskbar***, and it a
 
 The ‘tasklist’ command is helpful but does not give you a text file of the running processes. Instead, type the command ***‘tasklist > c:\process_list.txt’ to get a saved copy.***
 
+## 07. Check User’s Autostart Folders
+Window computers have the ability to configure apps and have them run automatically anytime your system boots up. The startup folder for all users sharing a computer can be accessed through the path ***C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp***, and the path for individual users is accessed through ***C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup*** (replace username with actual user account name).
+Once on the folders, you should add a shortcut of your desired app to the startup folder. It is worth noting that there are two startup folders on any shared computer, one for all users and another for individual users. That said, each user can customize it to their preferences.
+
+Whenever you find a suspicious folder placed under autostart in your computer system, disable them by the following steps;
+1. Open the task manager
+2. Open the startup tab on the window that opens
+3. Disable any unauthorized programs running in your startup
+
+Alternatively, the best way to open Startup folders in windows is to run the address shell:startup the Run-Dialog box(Windows key+ R) and delete the folders.
+
 [More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
 
 
