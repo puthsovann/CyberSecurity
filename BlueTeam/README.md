@@ -13,6 +13,9 @@ Below are typical characteristics phishing emails have in common:
 * Hyperlinks (oftentimes uses URL shortening services to hide its true origin)
 * A malicious attachment posing as a legitimate document
 
+# Forensic
+[Forensic](Forensic) -- Information security is a very crucial aspect of business management that has always remained at risk of attack. Once a system is compromised, it loses its confidentiality, integrity, and, at times, availability which damages normal business processes. Tragic as it may sound, all is not lost; sophisticated attacks take time to mature, giving a keen administrator a chance to detect an attack in its early stages and counter it soon enough. There are certain things you can look into when you suspect one of your machines is compromised. We have listed 14 things to check when a system gets compromised. Let’s list them one after the other.
+
 *Additional Resources 2 Read*  
 [Knowbe4](https://www.knowbe4.com/phishing)  
 [IT Governance](https://www.itgovernance.co.uk/blog/5-ways-to-detect-a-phishing-email)  
