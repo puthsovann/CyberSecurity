@@ -49,6 +49,35 @@ Whenever you find a suspicious folder placed under autostart in your computer sy
 
 Alternatively, the best way to open Startup folders in windows is to run the address shell:startup the Run-Dialog box(Windows key+ R) and delete the folders.
 
+## 08. Check for Unusual/Unexpected Network Services Installed and Started
+Computers are programmed to permit specific service programs to run in the background to encourage productivity. This sets a precedent that enables hackers to inject malicious network services into our machines and misuse the functionalities offered. Distributed Denial of Service Attacks (DDOS) targeted to a web service are launched this way.
+
+When google intercepts an unexpected network service operating on your device, they will send you a message saying, ‘Our systems have detected unusual traffic from your computer network. This page checks to see if it’s really you sending the requests and not a robot. Please try your request again later.’Prompted by a CAPTCHA for you to fill. This error would indicate that a virus has hijacked your system or an unknown service is sending data, thereby causing traffic.
+
+To fix such an error may require a variety of solutions. You could either and most advisably perform an anti-virus scan, Run the Chrome cleanup tool to uninstall the suspicious program, or reboot your network router altogether.
+
+## 09. Check for Unusual Network Activity
+As most of the malware work over the network to communicate with c2 servers. It’s a mandatory thing to check when a system gets compromised. System administrators can collect information about the network activities of a computer system from a variety of sources which include;
+
+1. log files from network hosts and devices,
+2. Error and Alert Responses,
+3. Administrator actions (SMNP queries, ICMP Pings, port probes )
+4. Output tools(NetSpot, PRTG Network Monitor, Solar Winds ) analysis
+
+Regardless of how you detect an unusual network activity, the steps to remedy would include similar ones to those that counter unusual network services. Additionally, you could disconnect a VPN if you were using it or disable current browser extensions.
+
+## 10. Check at the Opened Sessions on The Machine
+Query capabilities that inform on the opened sessions of a Remote Desktop Session Host server apply to Windows Server 2012, 2012 R2, and 2016.
+The query list includes a list of all active sessions the server runs alongside any other sessions the server runs.
+
+The syntax used: query session [<sessionname> | <username> | <sessionID>] [/server:<servername>] [/mode] [/flow] [/connect] [/counter] will query the sessions that the user is currently logged on or more provided the permissions are granted.
+
+Alternatively, the command query session /server: Server2 will display all active sessions on Server2. If you happen to encounter a foreign session, study its operations and take appropriate action.
+  
+## 11. Check for Unusual Automated Tasks
+Checking for automated tasks on the infected machine lets you understand more about the malware. This is considered a good thing to check when a system gets compromised.
+As the name suggests, Windows task schedulers allow a computer user to schedule tasks that execute commands and applications at specific times and when pre-set conditions have been met. The easiest way to open the app is to search it in windows and then select open. Tasks are stored in folders in the task scheduler library. Study them, and if you bump into one abnormally looking, right-click to end it.
+
 [More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
 
 
