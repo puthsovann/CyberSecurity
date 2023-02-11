@@ -76,8 +76,27 @@ Alternatively, the command query session /server: Server2 will display all activ
   
 ## 11. Check for Unusual Automated Tasks
 Checking for automated tasks on the infected machine lets you understand more about the malware. This is considered a good thing to check when a system gets compromised.
+
 As the name suggests, Windows task schedulers allow a computer user to schedule tasks that execute commands and applications at specific times and when pre-set conditions have been met. The easiest way to open the app is to search it in windows and then select open. Tasks are stored in folders in the task scheduler library. Study them, and if you bump into one abnormally looking, right-click to end it.
 
-[More](https://thesecmaster.com/14-things-to-check-when-a-system-gets-compromised/)
+## 12. Check for Unusual Log Entries
+Logs tell pretty much everything about the activities that happened on the machine. Loga is one of the primary sources to probe malware activity. Logs are a vital thing to check when a system gets compromised.
+  
+As mentioned on the ninth thing to check when your system gets compromised, unusual network activity is a major tell-tale sign of it. The way to narrow down to a threat is to study the log files and check for any unusual log entries.
+  
+To find the log files on a windows machine;
+1. Firstly, log on to your server through the console button in manage or manually via an RDP connection.
+2. Once on the server, log in as the administrator.
+3. Click the Start Menu and navigate to the Event Viewer for the complete log information.
 
+## 13. Check for Any Rootkit
+A rootkit is malicious software hackers use to obtain access to privileged and all restricted parts of a computer system. Rootkit attacks are considered the most dangerous cybercrimes today because they are designed to remain undetected. Rootkits are mostly injected into a computer system by a phishing email, and its effects could range from eavesdropping, malware attacks, remote control, or file removal. Since they are hard to detect physically, rootkits are more effectively traced down by anti-virus software alongside scanners and assistance from other vendors. The technology to detect rootkits is expensive, especially if it has infected the kernel.
+  
+Re-installing an operating system is another workaround to dealing with rootkits at a less expensive cost.
+
+## 14. Run An Anti-Virus Product on the Whole Disk to Check for Any Malware
+To sum it all up, having a good anti-virus solution takes you a long way in an attempt to fight system comptonization. All the indicators of compromise explained in this article could have been solved proactively were there an anti-virus software safeguarding the system. Also, anti-virus products largely reduce the human effort required to detect malicious intrusions in a timely manner manually.
+  
+## Wrap Up
+We think now, it’s the place to wrap up this article after listing out 14 things to check when a system gets compromised. There could be other possible ways to check the malware in the system. Please let us know if you know other ways which are not listed here. This would help all the readers of this article and security professionals to strengthen their skills.
 
