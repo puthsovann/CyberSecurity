@@ -10,6 +10,16 @@
 # Some Script
 [Scripts](Scripts) - Some code/scripts for exploit, automation and others.
 
+# Work In Process
+### Android
+```
+https://www.howtogeek.com/125769/how-to-install-and-use-abd-the-android-debug-bridge-utility/
+```
+### Resource Notes
+```
+https://fhlipzero.io/notes/mobile/oneplus_7_root.html
+```
+
 # :boom: Free Resources to Practice:
 
 ```
